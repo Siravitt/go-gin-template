@@ -10,7 +10,7 @@ then
 fi
 
 # set: Setting up config
-if ! ./setup-precommit-config.sh
+if ! ./setup-pre-commit.sh
 then
     printf 'Setting & Config up pre-commit... \t%s\n' "💔 FAIL"
 fi
