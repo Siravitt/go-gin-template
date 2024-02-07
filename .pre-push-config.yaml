@@ -6,5 +6,5 @@ repos:
         name: run smoke test
         entry: bash -c 'go test -v ./...'
         language: script
-        pass_filename: true
+        pass_filenames: true
         verbose: true
