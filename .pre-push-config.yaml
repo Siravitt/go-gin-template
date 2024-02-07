@@ -4,7 +4,7 @@ repos:
     hooks:
     -   id: run-smk-test
         name: run smoke test
-        entry: bash -c 'pwd'
+        entry: ./scripts/run-tests.sh
         language: script
         pass_filenames: false
         verbose: true
