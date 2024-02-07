@@ -1,0 +1,10 @@
+default_stages: [push]
+repos:
+-   repo: local
+    hooks:
+    -   id: run-smk-test
+        name: run smoke test
+        entry: bash -c 'go test -v ./...'
+        language: script
+        pass_filename: true
+        verbose: true
