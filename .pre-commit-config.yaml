@@ -5,4 +5,5 @@ repos:
         hooks:
         -   id: trailing-whitespace
         -   id: detect-private-key
+            verbose: true
         -   id: end-of-file-fixer
